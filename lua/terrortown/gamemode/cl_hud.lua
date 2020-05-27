@@ -87,7 +87,7 @@ local bar_colors = {
 
 	traitor = Color(142, 0, 0, 200),
 	innocent = Color(0, 154, 6, 200),
-	detective = Color(0, 58, 135, 200),
+	detective = Color(25, 25, 114, 200),
 	mercenary = Color(179, 148, 0, 200),
 	hypnotist = Color(158, 57, 134, 200),
 	glitch = Color(166, 83, 0, 200),
@@ -419,7 +419,7 @@ local function InfoPaint(client)
 	local text
 	local font = "TimeLeft"
 	local color = COLOR_WHITE
-	local rx = x + margin + 170
+	local rx = x + margin + 166
 	local ry = traitor_y 
 	
 	-- Time displays differently depending on whether haste mode is on,
